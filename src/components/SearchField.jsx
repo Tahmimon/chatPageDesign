@@ -6,9 +6,8 @@ const SearchField = () => {
         <div className="w-80">
           <input
             type="text"
-            placeholder="Search"
-            value="Search your contacts"
-            className="w-full px- py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            placeholder="Search your contacts"
+            className="w-full py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
           
           

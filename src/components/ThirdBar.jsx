@@ -1,10 +1,11 @@
 import React from 'react'
 import MiddleThird from './MiddleThird';
 import UpperThird from './UpperThird';
+import LowerThird from './LowerThird';
 
 const ThirdBar = () => {
   return (
-    <div className='w-[800px] bg-gray-100 h-screen'>
+    <div className='w-[800px] bg-gray-100 h-screen relative'>
         <div className='w-full h-24 flex flex-row justify-around items-center bg-white'>
           <UpperThird />
           <div className='flex items-center justify-between gap-4'>
@@ -15,6 +16,9 @@ const ThirdBar = () => {
         </div>
         <div className='bg-gray-100 flex '>
           <MiddleThird />
+        </div>
+        <div className='absolute bottom-0 w-full'>
+        <LowerThird />
         </div>
         
     
